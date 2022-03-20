@@ -8,14 +8,14 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background: linear-gradient(to bottom, #494d5f, #4c495d, #564f67, #2d283e);
-    color: #fff;
+    background: #fff;
+    color: #000;
 }
 h3 {
     font-size: 2rem;
     text-align: center;
     letter-spacing: 4px;
-    text-shadow: 2px 2px #494949, 3px 3px #8518cd;
+    text-shadow: 2px 2px #fff, 3px 3px #8518cd;
     padding-top: 4rem;
 }
 
@@ -27,7 +27,7 @@ h3 {
     align-items: center;
     justify-content: space-around;
     height: 8vh;
-    background: black;
+    background: #fff;
     position: sticky;
     top: 0;
     z-index: 5;
@@ -69,7 +69,7 @@ h3 {
         height: 5px;
         margin: 5px;
         border-radius: 4px;
-        background: #fff;
+        background: #000;
         transition: all 0.3s ease-in-out;
     }
     .nav_list {
@@ -105,7 +105,7 @@ h3 {
 /*     Header         */
 /**********************/
 .main {
- background: linear-gradient(to right, #fff, #564f67, #802bb1); 
+ background: #fff; 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,7 +125,7 @@ h3 {
 .main h2 {
     font-size: 3rem;
     font-weight: 700;
-    color: #fff;
+    color: rgb(165, 110, 119);
 }
 .main button {
     font-size: 1rem;
@@ -304,7 +304,7 @@ h3 {
     align-items: center;
     justify-content: space-around;
     border-radius: 4px;
-    background: #fff;
+    background: #000;
     padding: 0.7rem;
     width: 80px;
     height: 80px;
@@ -392,7 +392,7 @@ h3 {
     width: 300px;
     height: 200px;
     border-radius: 30px;
-    border: 3px solid #fff;
+    border: 14px solid #000;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -424,7 +424,7 @@ h3 {
     font-size: 0.7rem;
 }
 .work_container a {
-    color: #fff;
+    color: #802bb1;
 }
 .fa-github {
     position: absolute;
