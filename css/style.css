@@ -105,7 +105,7 @@ h3 {
 /*     Header         */
 /**********************/
 .main {
- background: #fff; 
+ background: linear-gradient(to right, #fff, #564f67, #802bb1); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
