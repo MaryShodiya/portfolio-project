@@ -38,7 +38,7 @@ h3 {
 }
 .brand p {
     color: #802bb1;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -51,7 +51,7 @@ h3 {
 }
 .nav_list li a {
     color: #802bb1;
-    font-size: 16px;
+    font-size: 30px;
     font-weight: 500;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
@@ -125,7 +125,7 @@ h3 {
 .main h2 {
     font-size: 3rem;
     font-weight: 700;
-    color: rgb(165, 110, 119);
+    color: #fff;
 }
 .main button {
     font-size: 1rem;
