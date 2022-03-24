@@ -404,16 +404,20 @@ h3 {
     background-repeat: no-repeat;
 }
 .work_container:nth-child(1) {
-    background: url(/assets/754F54C7-04C6-4115-92F1-D472F6CC4F39.png);
+    background: url(/assets/dzobofactory.gif);
+    background-size: cover;
 }
 .work_container:nth-child(2) {
-    background: url(/assets/754F54C7-04C6-4115-92F1-D472F6CC4F39.png);
+    background: url(/assets/diya-trivia.gif);
+    background-size: cover;
 }
 .work_container:nth-child(3) {
-    background: url(/assets/754F54C7-04C6-4115-92F1-D472F6CC4F39.png);
+    background: url(/assets/simi-arts.gif);
+    background-size: cover;
 }
 .work_container:nth-child(4) {
-    background: url(/assets/754F54C7-04C6-4115-92F1-D472F6CC4F39.png);
+    background: url(/assets/nasa.gif);
+    background-size: cover;
 }
 .work_container p:nth-child(1) {
     font-size: 1rem;
