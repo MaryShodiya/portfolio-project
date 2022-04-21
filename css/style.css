@@ -128,6 +128,9 @@ h3 {
     font-weight: 700;
     color: #fff;
 }
+button > a{
+    text-decoration: none;
+}
 .main button {
     font-size: 1rem;
     font-weight: 600;
@@ -404,24 +407,36 @@ h3 {
     background-repeat: no-repeat;
 }
 .work_container:nth-child(1) {
-    background: url(/assets/dzobofactory.gif);
+    background: url(../assets/dzobo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .work_container:nth-child(2) {
-    background: url(/assets/diya-trivia.gif);
+    background-image: url(../assets/trivia.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .work_container:nth-child(3) {
-    background: url(/assets/simi-arts.gif);
+    background-image: url(../assets/simi.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .work_container:nth-child(4) {
-    background: url(/assets/nasa.gif);
+    background-image: url(../assets/nasa.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .work_container:nth-child(5) {
-    background: url(/assets/rick.gif);
+    background-image: url(../assets/rick.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+   
 }
 
 .work_container p:nth-child(1) {
