@@ -130,7 +130,12 @@ h3 {
 }
 button > a{
     text-decoration: none;
+    color:#fff;
 }
+a:hover{
+color: #802bb1;
+}
+
 .main button {
     font-size: 1rem;
     font-weight: 600;
