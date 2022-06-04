@@ -396,6 +396,7 @@ color: #802bb1;
 /*      Projects      */
 /**********************/
 .works_wrapper {
+
     margin-top: 4rem;
     display: inline-grid;
     width: 100%;
@@ -403,9 +404,12 @@ color: #802bb1;
     gap: 2rem;
 }
 .work_container {
-    width: 300px;
-    height: 200px;
-    border-radius: 30px;
+    width: 500px;
+    height: 250px;
+    background: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    );
     border: 14px solid #564f67;
     position: relative;
     display: flex;
@@ -453,13 +457,23 @@ color: #802bb1;
     font-size: 1rem;
     color: #802bb1;
     font-weight: 500;
+    text-shadow: 2px 2px #fff, 3px 3px #8518cd;
+
 }
+/* font-size: 2rem;
+    text-align: center;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px #fff, 3px 3px #8518cd;
+    padding-top: 4rem;*/
+
+
+
 .work_container p:nth-child(2) {
     margin-top: 0.3rem;
     font-size: 0.7rem;
 }
 .work_container a {
-    color: #802bb1;
+    color: #8518cd;
 }
 .fa-github {
     position: absolute;
