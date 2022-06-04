@@ -313,11 +313,12 @@ color: #802bb1;
     align-items: center;
     justify-content: space-around;
     border-radius: 4px;
-    background: #000;
+    background: #564f67;
     padding: 0.7rem;
     width: 80px;
     height: 80px;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 .tools:hover {
     background: #fff;
@@ -330,8 +331,12 @@ color: #802bb1;
     font-size: 0.6rem;
     letter-spacing: 1px;
     font-weight: 500;
-    color: #802bb1;
+    color: #000;
 }
+.tools p:hover {
+    color:#802bb1
+}
+
 @media screen and (min-width: 600px) {
     .tech_container {
         grid-template-columns: 80px 80px 80px 80px 80px;
