@@ -466,6 +466,14 @@ color: #802bb1;
    
 }
 
+.project-six {
+    background-image: url(../assets/zodiac.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
 .work_container p:nth-child(1) {
     font-size: 1rem;
     color: #802bb1;
