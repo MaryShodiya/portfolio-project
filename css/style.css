@@ -11,6 +11,9 @@ body {
     background: #fff;
     color: #000;
 }
+html, body{
+    overflow-x: hidden;
+}
 h3 {
     font-size: 2rem;
     text-align: center;
@@ -151,6 +154,14 @@ color: #802bb1;
     color: #802bb1;
     background: transparent;
     cursor: pointer;
+}
+/************* Media queries ****************/
+@media screen and (max-width:420px){
+  .main-para, .main-head{
+      padding: 0;
+      margin: 0;
+      
+  }
 }
 
 /**********************/
@@ -551,6 +562,22 @@ color: #802bb1;
         font-size: 0.8rem;
     }
 }
+/* FOR FOLDED DEVICES*/
+@media screen and (max-width:420px){
+    body{
+        font-size: 10px;   
+ }
+ .work_container{
+     width:150px;
+
+ }
+ .works_wrapper > .work-pre-container {
+     width: 180px;
+ }
+
+ 
+ }
+
 
 /**********************/
 /*     Contact us     */
